@@ -32,4 +32,5 @@ public class AppController {
     @GetMapping("/envVariable")
     public String getEnvironmentVariable(){
         return "A Seguinte dVariavél de Ambiente foi Passada: "+dbEnvironmentVariable;
+    }
 }
